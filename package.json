@@ -1,0 +1,38 @@
+{
+  "name": "webpack_mapboard",
+  "sideEffects": false,
+  "version": "1.0.0",
+  "main": "",
+  "license": "MIT",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production npx webpack --display-modules",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server"
+  },
+  "dependencies": {
+    "@cityofphiladelphia/mapboard": "https://github.com/CityOfPhiladelphia/mapboard#718f24b3581dbf81b6a0a69cabcdcd4b030e9695",
+    "accounting": "^0.4.1",
+    "moment": "^2.24.0",
+    "phila-standards": "^1.0.2",
+    "vue": "^2.6.2",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/register": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-component": "^1.1.1",
+    "babel-plugin-dynamic-import-node-babel-7": "^2.0.7",
+    "cross-env": "^5.2.0",
+    "css-loader": "^2.1.0",
+    "file-loader": "^3.0.1",
+    "style-loader": "^0.23.1",
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.6.2",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-visualizer-plugin": "^0.1.11"
+  }
+}
